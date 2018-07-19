@@ -1,2 +1,8 @@
 # IDE files
 .vscode/
+
+#text files
+*.txt
+
+# env files
+.env
