@@ -13,19 +13,19 @@ To print contract's output to console by default add: --contracts-console
 Step #2 – Create a Wallet
 It will store our keys which we’ll use when we’re signing transactions
 
-* 1. Create new wallet with the name "oasis"
+* Create new wallet with the name "oasis"
 `cleos wallet create -n oasis`
 
-* 2. Generate two pair of keys (use the command twice)
+* Generate two pair of keys (use the command twice)
 `cleos create key`
 
-* 3. Import the generated private keys in the wallet(you need to specify the wallet at the end)
+* Import the generated private keys in the wallet(you need to specify the wallet at the end)
 * {private_key_1} - This will be the OwnerKey
 * {private_key_2} - This will be the ActiveKey
 `cleos wallet import {private_key_1} -n oasis `
 `cleos wallet import {private_key_2} -n oasis`
 
-* 4. Add the private key of the "eosio" account into your wallet
+* Add the private key of the "eosio" account into your wallet
 * Note: With the latest version of EOSIO the private key is automatically added to your wallet
 `cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 -n oasis`
 

@@ -6,3 +6,8 @@
 
 # env files
 .env
+
+# compiled files
+*.wasm
+*.wast
+*.abi
