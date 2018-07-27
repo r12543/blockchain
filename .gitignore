@@ -11,3 +11,9 @@
 *.wasm
 *.wast
 *.abi
+
+# Virtualenv files
+*venv
+
+# Cache files
+__pycache__
