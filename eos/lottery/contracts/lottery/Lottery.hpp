@@ -8,7 +8,7 @@ namespace CipherZ {
 
     class Lottery : public contract {
         using contract::contract;
-        
+
         public:
             Lottery(account_name self):contract(self) {}
 
@@ -76,5 +76,5 @@ namespace CipherZ {
             typedef multi_index<N(grade), grade> gradeIndex;
     };
 
-    EOSIO_ABI(Lottery, (addstudent)(addgrade)(getstudents)(getgrades)(getstudent)(getgrade)(runlottery)(remstudent)(remgrade));
+    EOSIO_ABI(Lottery, (addstudent)(addgrade)(getstudents)(getgrades)(getstudent)(getgrade)(runlottery)(remstudent)(remgrade))
 }
