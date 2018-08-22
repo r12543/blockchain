@@ -1,0 +1,15 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "Simple voting dapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Rajat Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.1.8",
+    "web3": "^0.20.2"
+  }
+}

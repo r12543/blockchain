@@ -17,3 +17,7 @@
 
 # Cache files
 __pycache__
+
+# Node modules
+node_modules/
+
